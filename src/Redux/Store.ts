@@ -1,4 +1,4 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import ForecastReducer from "./Slices/ForecastSlice";
 
 const store = configureStore({
